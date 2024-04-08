@@ -12,8 +12,9 @@ Connect with me on social media and explore my work:
 
 **Special Thanks to GitHub Sponsors**
 
-
 ## About The Project
+
+![](Artifacts\screen.png)
 
 The Smart Applicant Tracking System (ATS) is a cutting-edge tool designed to enhance the resume evaluation process. Leveraging advanced Generative AI models from Google, the system empowers users to submit their resumes for a comprehensive analysis based on a provided job description. The system, equipped with a keen understanding of the tech industry, including software engineering, data science, and big data engineering, evaluates resumes in the highly competitive job market. Users can upload their resumes in PDF format, and the system extracts relevant information using PyPDF2. The generated response includes a percentage match with the job description, a list of missing keywords, and a refined profile summary. This innovative solution aims to assist individuals in improving their resumes for optimal performance in the competitive job landscape. The Streamlit web application provides a user-friendly interface, making the resume enhancement process efficient and accessible.
 
@@ -21,10 +22,10 @@ View Live Demo of this project: [Click Here](https://kalyanmurapaka45-applicatio
 
 ## Built With
 
- - Streamlit
- - PyPDF2
- - Google Generativeai
- - Python-dotenv
+- Streamlit
+- PyPDF2
+- Google Generativeai
+- Python-dotenv
 
 ## Getting Started
 
@@ -38,6 +39,7 @@ To get a local copy up and running follow these simple example steps.
 Follow these steps to install and set up the project directly from the GitHub repository:
 
 1. **Clone the Repository**
+
    - Open your terminal or command prompt.
    - Navigate to the directory where you want to install the project.
    - Run the following command to clone the GitHub repository:
@@ -46,18 +48,21 @@ Follow these steps to install and set up the project directly from the GitHub re
      ```
 
 2. **Create a Virtual Environment** (Optional but recommended)
+
    - It's a good practice to create a virtual environment to manage project dependencies. Run the following command:
      ```
      conda create -p <Environment_Name> python==<python version> -y
      ```
 
 3. **Activate the Virtual Environment** (Optional)
+
    - Activate the virtual environment based on your operating system:
-       ```
-       conda activate <Environment_Name>/
-       ```
+     ```
+     conda activate <Environment_Name>/
+     ```
 
 4. **Install Dependencies**
+
    - Navigate to the project directory:
      ```
      cd [project_directory]
@@ -68,6 +73,7 @@ Follow these steps to install and set up the project directly from the GitHub re
      ```
 
 5. **Run the Project**
+
    - Start the project by running the appropriate command.
      ```
      python app.py
@@ -76,16 +82,17 @@ Follow these steps to install and set up the project directly from the GitHub re
 6. **Access the Project**
    - Open a web browser or the appropriate client to access the project.
 
-
 ## API Key Setup
 
 To use this project, you need an API key from Google Gemini Large Language Model. Follow these steps to obtain and set up your API key:
 
 1. **Get API Key:**
+
    - Visit the Provided Link [Click Here](https://makersuite.google.com/app/apikey).
    - Follow the instructions to create an account and obtain your API key.
 
 2. **Set Up API Key:**
+
    - Create a file named `.env` in the project root.
    - Add your API key to the `.env` file:
      ```dotenv
@@ -93,7 +100,6 @@ To use this project, you need an API key from Google Gemini Large Language Model
      ```
 
    **Note:** Keep your API key confidential. Do not share it publicly or expose it in your code.<br>
-
 
 ## Contributing
 
@@ -117,11 +123,9 @@ Contributions are what make the open-source community such an amazing place to l
 
 This project is licensed under the [Open Source Initiative (OSI)](https://opensource.org/) approved GNU General Public License v3.0 License - see the [LICENSE.txt](LICENSE.txt) file for details.<br>
 
-
 ## Contact Details
 
 Hema Kalyan Murapaka - [kalyanmurapaka274@gmail.com](kalyanmurapaka274@gmail.com)<br>
-
 
 ## Acknowledgements
 
