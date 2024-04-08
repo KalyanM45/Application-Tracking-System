@@ -42,12 +42,10 @@ Assign the percentage Matching based on Job description and the missing keywords
 Resume:{extracted_text}
 Description:{jd}
 
-I want the only response in this format:
-Job Description Match: 
-(next line)
-MissingKeywords: 
-(next line)
-Profile Summary: 
+I want the only response in 3 sectors as follows:
+• Job Description Match: \n
+•  MissingKeywords: \n
+• Profile Summary: \n
 """
 
 ## streamlit app
