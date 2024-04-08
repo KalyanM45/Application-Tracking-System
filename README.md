@@ -76,7 +76,7 @@ Follow these steps to install and set up the project directly from the GitHub re
 
    - Start the project by running the appropriate command.
      ```
-     python app.py
+     streamlit run app.py
      ```
 
 6. **Access the Project**
